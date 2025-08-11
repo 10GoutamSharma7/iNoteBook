@@ -1,0 +1,76 @@
+#outerdiv {
+	background: linear-gradient(135deg, #e0f2e9 0%, #b2d8b2 100%) !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Caveat:wght@500;700&family=Shadows+Into+Light&display=swap');
+
+.signup-container {
+	background: rgba(255, 255, 255, 0.88);
+	box-shadow: 0 4px 24px 0 rgba(238,156,167,0.15);
+	border: 2px solid #ee9ca7;
+		max-width: 320px;
+		margin: 60px auto 50px auto;
+		padding: 28px 18px 22px 18px;
+	position: relative;
+	font-family: 'Indie Flower', 'Caveat', 'Shadows Into Light', cursive, sans-serif;
+}
+
+.signup-title {
+	font-size: 2rem;
+	font-weight: 700;
+	color: #ee9ca7;
+	text-align: center;
+	margin-bottom: 24px;
+	letter-spacing: 1px;
+	text-shadow: 0 1px 0 #fff, 0 2px 2px #fad0c4;
+}
+
+.form-label {
+	font-weight: 700;
+	color: #b24592;
+	letter-spacing: 0.5px;
+}
+
+.form-control {
+	border: 1.5px solid #ee9ca7;
+	border-radius: 8px;
+	background: #ffdde1;
+	color: #804FB3;
+	font-size: 1.1rem;
+	margin-bottom: 18px;
+	padding: 10px 14px;
+	transition: border 0.2s;
+}
+.form-control:focus {
+	border: 2px solid #b24592;
+	outline: none;
+}
+
+.btn-primary, .btn-signup {
+	background: linear-gradient(90deg, #ee9ca7 0%, #ffdde1 100%);
+	color: #804FB3;
+	border: none;
+	border-radius: 8px;
+	font-weight: 700;
+	font-size: 1.1rem;
+	padding: 10px 0;
+	width: 100%;
+	box-shadow: 0 1px 2px #ee9ca755;
+	margin-top: 8px;
+	transition: background 0.2s;
+	letter-spacing: 0.5px;
+}
+.btn-primary:hover, .btn-signup:hover {
+	background: linear-gradient(90deg, #d16ba5 0%, #ee9ca7 100%);
+	color: #fff;
+}
+
+.signup-link, .signup-link:visited {
+	color: #b24592;
+	text-decoration: underline wavy #ee9ca7;
+	font-weight: 700;
+	letter-spacing: 0.3px;
+	transition: color 0.2s;
+}
+.signup-link:hover {
+	color: #d16ba5;
+}
